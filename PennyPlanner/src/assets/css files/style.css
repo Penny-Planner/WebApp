@@ -1,0 +1,39 @@
+/* Imported Fonts */
+
+@font-face {
+    font-family: "Aileron-Regular";
+    font-style: normal;
+    font-weight: 500 ;
+    src: url("https://fonts.animaapp.com/Aileron-Regular")
+    format(truetype);
+}
+
+@font-face {
+    font-family: "Aileron-Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("https://fonts.animaapp.com/Aileron-Bold")
+    format(truetype);
+}
+
+@font-face {
+    font-family: "Aileron-Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("https://fonts.animaapp.com/Aileron-Bold")
+    format(truetype);
+}
+
+/* Variables */
+
+:root {
+    /* Color vars */
+
+    /* Font vars */
+    --font-family-andante-display-bold: "AndanteDisplay Bold";
+    --font-family-andante-text-regular: "AndanteText Regular";
+    --font-family-andante-text-bold: "AndanteText Bold";
+}
+
+/* Classes */
+
