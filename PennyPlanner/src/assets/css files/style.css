@@ -1,27 +1,24 @@
 /* Imported Fonts */
 
 @font-face {
-    font-family: "Aileron-Regular";
+    font-family: "AndanteText-Regular";
     font-style: normal;
-    font-weight: 500 ;
-    src: url("https://fonts.animaapp.com/Aileron-Regular")
-    format(truetype);
+    font-weight: 500;
+    src: url("../fonts/AndanteText-Regular.otf") format(truetype);
 }
 
 @font-face {
-    font-family: "Aileron-Bold";
+    font-family: "AndanteText-Bold";
     font-style: normal;
     font-weight: 700;
-    src: url("https://fonts.animaapp.com/Aileron-Bold")
-    format(truetype);
+    src: url("../fonts/AndanteText-Bold.otf") format(truetype);
 }
 
 @font-face {
-    font-family: "Aileron-Bold";
+    font-family: "AndanteDisplay-Bold";
     font-style: normal;
     font-weight: 700;
-    src: url("https://fonts.animaapp.com/Aileron-Bold")
-    format(truetype);
+    src: url("../fonts/AndanteDisplay-Bold.otf") format(truetype);
 }
 
 /* Variables */
@@ -29,11 +26,75 @@
 :root {
     /* Color vars */
 
+    --white: rgba(255, 255, 255, 1);
+    --black: rgba(0, 0, 0, 1);
+    --pennyplanner-blue: rgba(57, 83, 106, 1);
+
+
+    /* Font size vars */
+
+    --font-size-s: 20px;
+    --font-size-m: 32px;
+    --font-size-l: 48px;
+    --font-size-xl: 64px;
+
     /* Font vars */
-    --font-family-andante-display-bold: "AndanteDisplay Bold";
-    --font-family-andante-text-regular: "AndanteText Regular";
-    --font-family-andante-text-bold: "AndanteText Bold";
+    --font-family-andante-display-bold: "AndanteDisplay-Bold";
+    --font-family-andante-text-regular: "AndanteText-Regular";
+    --font-family-andante-text-bold: "AndanteText-Bold";
 }
 
 /* Classes */
 
+/* Andante Text Regular */
+
+.andantetext-regular-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-andante-text-regular);
+    font-size: var(--font-size-s);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.andantetext-regular-blue-20px {
+    color: var(--pennyplanner-blue);
+    font-family: var(--font-family-andante-text-regular);
+    font-size: var(--font-size-s);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.andantetext-regular-black-32px {
+    color: var(--black);
+    font-family: var(--font-family-andante-text-regular);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Andante Text Bold */
+
+.andantetext-bold-blue-20px {
+    color: var(--pennyplanner-blue);
+    font-family: var(--font-family-andante-text-bold);
+    font-size: var(--font-size-s);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.andantetext-bold-white-48px {
+    color: var(--white);
+    font-family: var(--font-family-andante-text-bold);
+    font-size: var(--font-size-l);
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Andante Display Bold */
+.andantedisplay-bold-blue-64px {
+    color: var(--pennyplanner-blue);
+    font-family: var(--font-family-andante-display-bold);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    font-style: normal;
+}
