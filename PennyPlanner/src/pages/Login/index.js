@@ -14,15 +14,21 @@ export default function Login() {
                         LOG INTO YOUR ACCOUNT
                     </p>
                 </div>
-                <form className="login_form">
+                <div className="login_form">
                     <input type="text" className="login_input andantetext-regular-black-32px" placeholder="e-mail" />
                     <input type="text" className="login_input andantetext-regular-black-32px" placeholder="password" />
-                    <p className="pw_msg andantetext-regular-black-20px">Forgot your password?</p>
+                </div>
+                <div className="pw_msg">
+                    <p className="andantetext-regular-black-20px">Forgot your password?</p>
+                </div>
+                <div className="login-button_container">
                     <input type="button" className="login_button andantetext-bold-white-48px" value="LOGIN" />
-                </form>
+                </div>
 
-                <div className="sign-up_msg">
-                    <p> <span className="andantetext-regular-black-20px">Already have an account? </span><span className="andantetext-bold-blue-20px">Log In</span> </p>
+
+
+                <div className="log-in_msg">
+                    <p> <span className="andantetext-regular-black-20px">Don't have an account? </span><span className="andantetext-bold-blue-20px">Sign Up</span> </p>
                 </div>
             </div>
         </div>
