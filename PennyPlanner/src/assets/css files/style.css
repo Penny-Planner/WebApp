@@ -34,6 +34,7 @@
     /* Font size vars */
 
     --font-size-s: 20px;
+    --font-size-sm: 28px;
     --font-size-m: 32px;
     --font-size-l: 48px;
     --font-size-xl: 64px;
@@ -60,6 +61,14 @@
     color: var(--pennyplanner-blue);
     font-family: var(--font-family-andante-text-regular);
     font-size: var(--font-size-s);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.andantetext-regular-black-28px {
+    color: var(--black);
+    font-family: var(--font-family-andante-text-regular);
+    font-size: var(--font-size-sm);
     font-weight: 500;
     font-style: normal;
 }

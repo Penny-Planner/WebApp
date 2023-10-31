@@ -1,0 +1,48 @@
+.sidebar_frame {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.25))
+}
+
+.logo_container {
+    height: 21.875%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pennyplanner_logo {
+    height: 80%;
+}
+
+.option_container_border {
+    height: 7.8125%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    text-decoration: none;
+    border-top: 1px solid black;
+}
+
+.option_container {
+    height: 7.8125%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    text-decoration: none;
+}
+
+.option_container:hover {
+    background-color: rgba(57, 83, 106, 1);
+    color: white;
+}
