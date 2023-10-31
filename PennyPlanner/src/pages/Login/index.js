@@ -91,7 +91,7 @@ export default function Login() {
             <div className="login-form_background">
                 <div className="login_title">
                     <p className="andantedisplay-bold-blue-64px">
-                        LOG INTO YOUR ACCOUNT
+                        LOG INTO YOUR <br/> ACCOUNT
                     </p>
                 </div>
                 <div className="login_form">

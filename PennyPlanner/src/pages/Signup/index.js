@@ -71,11 +71,10 @@ export default function Signup() {
                     <InputField placeholder="e-mail" onChange={handleEmailChange}/>
                     <PasswordInputField placeholder="password" onChange={handlePasswordChange}/>
                     <SignUpButton placeholder="SIGN UP" onClick={handleRegistration}/>
-                    <input type="button" className="signup_button andantetext-bold-white-48px" value="SIGN UP" />
                 </form>
 
                 <div className="sign-up_msg">
-                    <p> <span className="andantetext-regular-black-20px">Already have an account? </span><span className="andantetext-bold-blue-20px">Log In</span> </p>
+                    <p> <span className="andantetext-regular-black-20px">Already have an account? </span><Link to="/login"><span className="andantetext-bold-blue-20px">Log In</span></Link></p>
                 </div>
                 
             </div>
