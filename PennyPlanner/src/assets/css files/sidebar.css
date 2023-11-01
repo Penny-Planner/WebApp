@@ -32,6 +32,11 @@
     border-top: 1px solid black;
 }
 
+.option_container_border:hover {
+    background-color: rgba(57, 83, 106, 1);
+    color: white;
+}
+
 .option_container {
     height: 7.8125%;
     width: 100%;

@@ -10,13 +10,18 @@
 .profile_circle_background {
 
     position: absolute;
-    left: -27.77%;
-    top: -33.69%;
+    left: -42%;
+    top: -25%;
     background-color: #39536A;
-    height: 105.957%;
     width: 75.347%;
-    border-radius: 50%;
+    border-radius: 100%;
     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25))
+}
+
+.profile_circle_background::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
 }
 
 .content_background {
@@ -40,11 +45,17 @@
 }
 
 .profile-pic {
+    position:relative;
     width: 13.88%;
-    height: 54.945%;
     background-color: black;
     border-radius: 50%;
     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25))
+}
+
+.profile-pic::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
 }
 
 .username_container {

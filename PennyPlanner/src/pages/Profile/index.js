@@ -7,9 +7,10 @@ export default function Profileview() {
     return (
         <div className="fullscreen_profile">
 
-            <div className="profile_circle_background">
-            </div>
+
             <div className="content_background">
+                <div className="profile_circle_background">
+                </div>
                 <div className="upper_content">
                     <div className="profile-picture_container">
                         <div className="profile-pic">
@@ -31,8 +32,10 @@ export default function Profileview() {
 
 
             </div>
-
             <Sidebar />
+
+
+
         </div>
     )
 }
