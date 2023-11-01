@@ -1,0 +1,90 @@
+.footer_container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 38.67%;
+    background-color: white;
+}
+
+.upper-footer_container {
+    width: 100%;
+    height: 50.50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-logo-text_container {
+    height: 100%;
+    width: 53.33%;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-logo_container {
+    width: 30.34%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo {
+    max-height: 100%;
+}
+
+.footer-title_container {
+    height: 100%;
+    width: 69.66%;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.footer-help-legal-socials_container {
+    height: 100%;
+    width: 46.67%;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-help_container {
+    width: 23.21%;
+    height: 100%;
+}
+
+.footer-col_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-col-row_container {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: end;
+}
+
+.footer-legal_container {
+    width: 42.11%;
+    height: 100%;
+}
+
+.footer-socials_container {
+    width: 34.67%;
+    height: 100%;
+}
+
+.lower-footer_container {
+    width: 100%;
+    height: 49.50%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-copyright_container {
+    width: 100%;
+    margin-left: 3.47%;
+}
+

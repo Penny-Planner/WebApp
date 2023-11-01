@@ -35,9 +35,11 @@
 
     --font-size-s: 20px;
     --font-size-sm: 28px;
+    --font-size-sms: 30px;
     --font-size-m: 32px;
     --font-size-l: 48px;
     --font-size-xl: 64px;
+    --font-size-xxl: 80px;
 
     /* Font vars */
     --font-family-andante-display-bold: "AndanteDisplay-Bold";
@@ -73,6 +75,14 @@
     font-style: normal;
 }
 
+.andantetext-regular-black-30px {
+    color: var(--black);
+    font-family: var(--font-family-andante-text-regular);
+    font-size: var(--font-size-sms);
+    font-weight: 500;
+    font-style: normal;
+}
+
 .andantetext-regular-black-32px {
     color: var(--black);
     font-family: var(--font-family-andante-text-regular);
@@ -91,6 +101,14 @@
     font-style: normal;
 }
 
+.andantetext-bold-blue-30px {
+    color: var(--black);
+    font-family: var(--font-family-andante-text-bold);
+    font-size: var(--font-size-sms);
+    font-weight: 700;
+    font-style: normal;
+}
+
 .andantetext-bold-white-48px {
     color: var(--white);
     font-family: var(--font-family-andante-text-bold);
@@ -104,6 +122,14 @@
     color: var(--pennyplanner-blue);
     font-family: var(--font-family-andante-display-bold);
     font-size: var(--font-size-xl);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.andantedisplay-bold-black-80px {
+    color: var(--black);
+    font-family: var(--font-family-andante-display-bold);
+    font-size: var(--font-size-xxl);
     font-weight: 700;
     font-style: normal;
 }
