@@ -37,9 +37,11 @@
     --font-size-sm: 28px;
     --font-size-sms: 30px;
     --font-size-m: 32px;
+    --font-size-ml: 40px;
     --font-size-l: 48px;
     --font-size-xl: 64px;
     --font-size-xxl: 80px;
+    --font-size-xxxl: 100px;
 
     /* Font vars */
     --font-family-andante-display-bold: "AndanteDisplay-Bold";
@@ -91,6 +93,14 @@
     font-style: normal;
 }
 
+.andantetext-regular-black-40px {
+    color: var(--black);
+    font-family: var(--font-family-andante-text-regular);
+    font-size: var(--font-size-ml);
+    font-weight: 500;
+    font-style: normal;
+}
+
 /* Andante Text Bold */
 
 .andantetext-bold-blue-20px {
@@ -118,6 +128,14 @@
 }
 
 /* Andante Display Bold */
+.andantedisplay-bold-black-40px {
+    color: var(--black);
+    font-family: var(--font-family-andante-display-bold);
+    font-size: var(--font-size-ml);
+    font-weight: 700;
+    font-style: normal;
+}
+
 .andantedisplay-bold-blue-64px {
     color: var(--pennyplanner-blue);
     font-family: var(--font-family-andante-display-bold);
@@ -130,6 +148,14 @@
     color: var(--black);
     font-family: var(--font-family-andante-display-bold);
     font-size: var(--font-size-xxl);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.andantedisplay-bold-black-100px {
+    color: var(--black);
+    font-family: var(--font-family-andante-display-bold);
+    font-size: var(--font-size-xxxl);
     font-weight: 700;
     font-style: normal;
 }
