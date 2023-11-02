@@ -1,10 +1,10 @@
-echo "Switching to branch development"
-git checkout development
+echo "Switching to branch deployment"
+git checkout deployment
 
 echo "Building app..."
 npm run build
 
 echo "Deploying files to server..."
-scp -r public/* marc@85.215.104.144:/var/www/penny-planner.eu/
+scp -r public/* marc@85.215.104.144:/var/www/85.215.104.144/
 
 echo "Done!"
