@@ -1,5 +1,4 @@
 .footer_container {
-    position: absolute;
     bottom: 0;
     width: 100%;
     height: 38.67vh;
@@ -21,7 +20,6 @@
 }
 
 .footer-logo_container {
-    width: 30.34%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -34,7 +32,6 @@
 
 .footer-title_container {
     height: 100%;
-    width: 69.66%;
     display: flex;
     align-items: center;
     text-align: left;
@@ -48,7 +45,6 @@
 }
 
 .footer-help_container {
-    width: 23.21%;
     height: 100%;
 }
 
@@ -63,16 +59,14 @@
     height: 25%;
     width: 100%;
     display: flex;
-    align-items: end;
+    align-items: center;
 }
 
 .footer-legal_container {
-    width: 42.11%;
     height: 100%;
 }
 
 .footer-socials_container {
-    width: 34.67%;
     height: 100%;
 }
 

@@ -9,15 +9,15 @@ export default function Footer() {
         <div className="footer_container">
             <div className="upper-footer_container">
                 <div className="footer-logo-text_container">
-                    <div className="footer-logo_container">
+                    <div className="footer-logo_container col-3">
                         <img src={PennyPlannerLogo} alt="PennyPlanner Logo" className="footer-logo" />
                     </div>
-                    <div className="footer-title_container andantedisplay-bold-black-80px">
+                    <div className="footer-title_container andantedisplay-bold-black-80px col-9">
                         PENNY <br /> PLANNER
                     </div>
                 </div>
                 <div className="footer-help-legal-socials_container">
-                    <div className="footer-help_container">
+                    <div className="footer-help_container col-3">
                         <div className="footer-col_container">
                             <div className="footer-col-row_container andantetext-bold-blue-30px">
                                 Help
@@ -33,7 +33,7 @@ export default function Footer() {
                             </div>
                         </div>
                     </div>
-                    <div className="footer-legal_container">
+                    <div className="footer-legal_container col-5">
                         <div className="footer-col_container">
                             <div className="footer-col-row_container andantetext-bold-blue-30px">
                                 Legal Info
@@ -49,7 +49,7 @@ export default function Footer() {
                             </div>
                         </div>
                     </div>
-                    <div className="footer-socials_container">
+                    <div className="footer-socials_container col-4">
                         <div className="footer-col_container">
                             <div className="footer-col-row_container andantetext-bold-blue-30px">
                                 Socials
