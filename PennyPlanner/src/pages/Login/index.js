@@ -53,7 +53,7 @@ export default function Login() {
             setErrorMessage('Bitte geben Sie eine gültige E-Mail-Adresse ein')
         } else {
             setErrorMessage("Loading...")
-            console.log({emailValue}, {passwordValue});
+            console.log({ emailValue }, { passwordValue });
             // sendDataToAPI(emailValue, passwordValue)
         }
     }
@@ -89,22 +89,20 @@ export default function Login() {
 
             </div>
             <div className="login-form_background">
-                <div className="login_title">
-                    <p className="andantedisplay-bold-blue-64px">
-                        LOG INTO YOUR <br/> ACCOUNT
-                    </p>
+                <div className="login_title andantedisplay-bold-blue-64px">
+                    LOG INTO YOUR <br /> ACCOUNT
                 </div>
                 <div className="login_form">
                     {/* <input type="text" className="login_input andantetext-regular-black-32px" placeholder="e-mail" /> */}
                     <EmailInputField placeholder="e-mail" onChange={handleEmailChange} />
-                    <PasswordInputField placeholder="password" onChange={handlePasswordChange}/>
+                    <PasswordInputField placeholder="password" onChange={handlePasswordChange} />
                 </div>
-                <div className="pw_msg">
-                    <p className="andantetext-regular-black-20px">Forgot your password?</p>
+                <div className="pw_msg andantetext-regular-black-20px">
+                    Forgot your password?
                 </div>
                 <div className="login-button_container">
                     {/* <input type="button" className="login_button andantetext-bold-white-48px" value="LOGIN" /> */}
-                    <LoginButton placeholder="LOGIN" onClick={handleLogin}/>
+                    <LoginButton placeholder="LOGIN" onClick={handleLogin} />
                 </div>
 
 
@@ -128,12 +126,12 @@ function EmailInputField({ placeholder, onChange }) {
     }
 
     return (
-            <input className="login_input andantetext-regular-black-32px"
-                type="text"
-                value={inputValue}
-                onChange={handleChange}
-                placeholder={placeholder}
-            />
+        <input className="login_input andantetext-regular-black-32px"
+            type="text"
+            value={inputValue}
+            onChange={handleChange}
+            placeholder={placeholder}
+        />
     )
 }
 
@@ -147,18 +145,18 @@ function PasswordInputField({ placeholder, onChange }) {
     }
 
     return (
-            <input 
-                className="login_input andantetext-regular-black-32px"
-                type="password"
-                value={displayValue}
-                onChange={handleChange}
-                placeholder={placeholder}
-            />
+        <input
+            className="login_input andantetext-regular-black-32px"
+            type="password"
+            value={displayValue}
+            onChange={handleChange}
+            placeholder={placeholder}
+        />
     )
 }
 
-function LoginButton({placeholder, onClick}) {
-    return(
+function LoginButton({ placeholder, onClick }) {
+    return (
         <input
             className="login_button andantetext-bold-white-48px"
             type="button"
