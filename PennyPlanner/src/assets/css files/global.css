@@ -6,19 +6,12 @@ body {
     margin: 0;
 }
 
-/* Desktop */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+
+
 
 [class*="col-"] {
     float: left;
@@ -33,42 +26,266 @@ body {
 }
 
 
-
+@media only screen and (min-width: 768px) {
+    /* Desktop */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
+    /* Header and homepage*/
+
+    div.andantedisplay-bold-black-40px {
+        font-size: 15px;
+    }
+
+    div.andantetext-regular-black-40px {
+        font-size: var(--font-size-s);
+    }
+
+    a.andantetext-regular-black-40px {
+        font-size: 15px;
+    }
+
+    div.header-nav_container {
+        width: 45%;
+        padding: 0;
+    }
+
+    div.pennyplanner_title {
+        left: 5%;
+    }
+
+    div.andantedisplay-bold-black-100px {
+        font-size: 50px;
+    }
     
+    /* Footer */
+
+    div.footer_container {
+        height: 60vh;
+    }
+
+    div.upper-footer_container {
+        height: 80%;
+        flex-direction: column;
+    }
+
+    div.footer-logo-text_container {
+        height: 40%;
+        width: 100%;
+    }
+
+    div.footer-logo_container {
+        width: 40%;
+    }
+
+    div.footer-title_container {
+        width: 60%;
+    }
+
+    div.andantedisplay-bold-black-80px {
+        font-size: 40px;
+    }
+
+    div.footer-help-legal-socials_container {
+        height: 60%;
+        width: 100%;
+    }
+
+    div.footer-help_container {
+        width: 30%;
+    }
+
+    div.footer-legal_container {
+        width: 40%;
+    }
+
+    div.footer-socials_container {
+        width: 30%;
+    }
+
+    div.andantetext-bold-blue-30px {
+        font-size: 15px;
+    }
+
+    div.andantetext-regular-black-30px {
+        font-size: 15px;
+    }
+
+    div.lower-footer_container {
+        height: 20%;
+    }
+
+    div.andantetext-regular-black-20px {
+        font-size: 10px;
+    }
+
+    /* Login */
+
+    div.signup-form_background {
+        width: 80%;
+    }
+
+    div.andantedisplay-bold-blue-64px {
+        font-size: 32px;
+    }
+
+    input.andantetext-bold-white-48px {
+        font-size: 24px;
+    }
+
+    input.andantetext-regular-black-32px {
+        font-size: 16px;
+    }
+
+    span.andantetext-regular-black-20px {
+        font-size: 15px;
+    }
+
+    span.andantetext-bold-blue-20px {
+        font-size: 15px;
+    }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    div.header_background {
-        font-size: var(--font-size-s);
+
+    /* Header and homepage*/
+
+    div.andantedisplay-bold-black-40px {
+        font-size: 19px;
     }
 
-    div.header_background {
-        font-size: var(--font-size-s);
+    div.andantetext-regular-black-40px {
+        font-size: 30px;
     }
+
+    a.andantetext-regular-black-40px {
+        font-size: 19px;
+    }
+
+    div.header-nav_container {
+        width: 45%;
+        padding: 0;
+    }
+
+    div.pennyplanner_title {
+        left: 5%;
+    }
+
+    div.andantedisplay-bold-black-100px {
+        font-size: 75px;
+    }
+
+    /* Footer */
+    
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
+    /* Header and homepage*/
+
+    div.andantedisplay-bold-black-40px {
+        font-size: 25px;
+    }
+
+    a.andantetext-regular-black-40px {
+        font-size: 25px;
+    }
+
+    div.header-nav_container {
+        width: 45%;
+        padding: 0;
+    }
+
+    div.pennyplanner_title {
+        left: 5%;
+    }
+
+    div.andantetext-regular-black-40px {
+        font-size: 30px;
+    }
+
+    div.andantedisplay-bold-black-100px {
+        font-size: 75px;
+    }
+
+    /* Footer */
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
+    /* Header and homepage*/
+    
+    div.andantedisplay-bold-black-40px {
+        font-size: 30px;
+    }
+
+    a.andantetext-regular-black-40px {
+        font-size: 30px;
+    }
+
+    div.header-nav_container {
+        width: 45%;
+        padding: 0;
+    }
+
+    div.pennyplanner_title {
+        left: 5%;
+    }
+
+    div.andantetext-regular-black-40px {
+        font-size: 35px;
+    }
+
+    div.andantedisplay-bold-black-100px {
+        font-size: 85px;
+    }
+
+    /* Footer */
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
+    /* Header and homepage*/
+
+    div.andantedisplay-bold-black-40px {
+        font-size: 40px;
+    }
+
+    a.andantetext-regular-black-40px {
+        font-size: 40px;
+    }
+
+    div.pennyplanner_title {
+        left: 10%;
+    }
+
+    div.andantetext-regular-black-40px {
+        font-size: 40px;
+    }
+
+    div.andantedisplay-bold-black-100px {
+        font-size: 100px;
+    }
+
+    /* Footer */
 }
 
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-      width: 100%;
-    }
-  }

@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import '../../assets/css files/signup.css'
 import {Link, useNavigate} from 'react-router-dom'
+import '../../assets/css files/global.css'
 
 
 export default function Signup() {
@@ -60,10 +61,8 @@ export default function Signup() {
 
             </div>
             <div className="signup-form_background">
-                <div className="signup_title">
-                    <p className="andantedisplay-bold-blue-64px">
+                <div className="signup_title andantedisplay-bold-blue-64px">
                         CREATE ACCOUNT
-                    </p>
                     
                 </div>
                 <form className="signup_form" onKeyUp={handleKeyEvent}>

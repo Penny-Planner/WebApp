@@ -1,6 +1,7 @@
 import React from "react";
 import "../assets/css files/header.css"
 import {Link, useNavigate} from 'react-router-dom'
+import '../assets/css files/global.css'
 
 export default function Header() {
     return (

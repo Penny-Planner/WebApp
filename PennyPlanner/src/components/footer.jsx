@@ -2,6 +2,7 @@ import React from "react";
 //import {Link, useNavigate } from 'react-router-dom'
 import '../assets/css files/footer.css'
 import PennyPlannerLogo from '../assets/images/PennyPlannerLogo.png'
+import '../assets/css files/global.css'
 
 
 export default function Footer() {
