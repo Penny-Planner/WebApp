@@ -252,6 +252,32 @@ body {
         font-size: 15px;
     }
 
+    /* Sign Up */
+
+    div.signup-form_background {
+        width: 60%;
+    }
+
+    div.andantedisplay-bold-blue-64px {
+        font-size: 32px;
+    }
+
+    input.andantetext-bold-white-48px {
+        font-size: 24px;
+    }
+
+    input.andantetext-regular-black-32px {
+        font-size: 16px;
+    }
+
+    span.andantetext-regular-black-20px {
+        font-size: 15px;
+    }
+
+    span.andantetext-bold-blue-20px {
+        font-size: 15px;
+    }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -286,6 +312,31 @@ body {
 
     /* Footer */
 
+    /* Sign Up */
+
+    div.signup-form_background {
+        width: 60%;
+    }
+
+    div.andantedisplay-bold-blue-64px {
+        font-size: 48px;
+    }
+
+    input.andantetext-bold-white-48px {
+        font-size: 36px;
+    }
+
+    input.andantetext-regular-black-32px {
+        font-size: 24px;
+    }
+
+    span.andantetext-regular-black-20px {
+        font-size: 18px;
+    }
+
+    span.andantetext-bold-blue-20px {
+        font-size: 18px;
+    }
 
 }
 
@@ -379,6 +430,32 @@ body {
     div.andantetext-regular-black-20px {
         font-size: 15px;
     }
+
+    /* Sign Up */
+
+    div.signup-form_background {
+        width: 50%;
+    }
+
+    div.andantedisplay-bold-blue-64px {
+        font-size: 48px;
+    }
+
+    input.andantetext-bold-white-48px {
+        font-size: 36px;
+    }
+
+    input.andantetext-regular-black-32px {
+        font-size: 24px;
+    }
+
+    span.andantetext-regular-black-20px {
+        font-size: 18px;
+    }
+
+    span.andantetext-bold-blue-20px {
+        font-size: 18px;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -464,6 +541,32 @@ body {
     }
 
     div.andantetext-regular-black-20px {
+        font-size: 20px;
+    }
+
+    /* Sign Up */
+
+    div.signup-form_background {
+        width: 40%;
+    }
+
+    div.andantedisplay-bold-blue-64px {
+        font-size: 64px;
+    }
+
+    input.andantetext-bold-white-48px {
+        font-size: 48px;
+    }
+
+    input.andantetext-regular-black-32px {
+        font-size: 32px;
+    }
+
+    span.andantetext-regular-black-20px {
+        font-size: 20px;
+    }
+
+    span.andantetext-bold-blue-20px {
         font-size: 20px;
     }
 }
