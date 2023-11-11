@@ -6,9 +6,9 @@ import '../assets/css files/global.css'
 export default function Header() {
     return (
         <div className="header_background col-12">
-            <div className="pennyplanner_title andantedisplay-bold-black-40px">
+            <Link to="/" className="pennyplanner_title andantedisplay-bold-black-40px">
                 PennyPlanner
-            </div>
+            </Link>
             <div className="header-nav_container col-4">
                 <Link to="" className="header-link_container andantetext-regular-black-40px">
                     About Us
