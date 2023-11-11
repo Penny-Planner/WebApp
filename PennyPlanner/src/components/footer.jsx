@@ -1,5 +1,5 @@
 import React from "react";
-//import {Link, useNavigate } from 'react-router-dom'
+import {Link, useNavigate } from 'react-router-dom'
 import '../assets/css files/footer.css'
 import PennyPlannerLogo from '../assets/images/PennyPlannerLogo.png'
 import '../assets/css files/global.css'
@@ -23,9 +23,9 @@ export default function Footer() {
                             <div className="footer-col-row_container andantetext-bold-blue-30px">
                                 Help
                             </div>
-                            <div className="footer-col-row_container andantetext-regular-black-30px">
+                            <Link to="/faq" className="footer-col-row_container andantetext-regular-black-30px">
                                 FAQ
-                            </div>
+                            </Link>
                             <div className="footer-col-row_container andantetext-regular-black-30px">
                                 Contact
                             </div>
