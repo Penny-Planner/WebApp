@@ -29,9 +29,9 @@ export default function Footer() {
                             <div className="footer-col-row_container andantetext-regular-black-30px">
                                 Contact
                             </div>
-                            <div className="footer-col-row_container andantetext-regular-black-30px">
+                            <Link to="/aboutus" className="footer-col-row_container andantetext-regular-black-30px">
                                 About Us
-                            </div>
+                            </Link>
                         </div>
                     </div>
                     <div className="footer-legal_container col-5">

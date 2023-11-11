@@ -10,13 +10,13 @@ export default function Header() {
                 PennyPlanner
             </Link>
             <div className="header-nav_container col-4">
-                <Link to="" className="header-link_container andantetext-regular-black-40px">
+                <Link to="/aboutus" className="header-link_container andantetext-regular-black-40px">
                     About Us
                 </Link>
                 <Link to="/signup" className="header-link_container andantetext-regular-black-40px">
                     Sign Up
                 </Link>
-                <Link to="login" className="header-link_container andantetext-regular-black-40px">
+                <Link to="/login" className="header-link_container andantetext-regular-black-40px">
                     Log In
                 </Link>
             </div>
