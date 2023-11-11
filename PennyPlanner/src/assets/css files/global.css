@@ -47,6 +47,10 @@ body {
 
     /* Header and homepage*/
 
+    div.andantedisplay-bold-black-48px {
+        font-size: 20px;
+    }
+
     div.andantedisplay-bold-black-40px {
         font-size: 15px;
     }
@@ -55,11 +59,19 @@ body {
         font-size: 15px;
     }
 
+    li.andantedisplay-bold-black-40px {
+        font-size: 15px;
+    }
+
     div.andantetext-regular-black-40px {
         font-size: var(--font-size-s);
     }
 
     a.andantetext-regular-black-40px {
+        font-size: 15px;
+    }
+
+    p.andantetext-regular-black-40px {
         font-size: 15px;
     }
 
@@ -200,6 +212,10 @@ body {
 
     /* Header and homepage*/
 
+    div.andantedisplay-bold-black-48px {
+        font-size: 24px;
+    }
+
     div.andantedisplay-bold-black-40px {
         font-size: 19px;
     }
@@ -208,11 +224,19 @@ body {
         font-size: 19px;
     }
 
+    li.andantedisplay-bold-black-40px {
+        font-size: 19px;
+    }
+
     div.andantetext-regular-black-40px {
         font-size: 30px;
     }
 
     a.andantetext-regular-black-40px {
+        font-size: 19px;
+    }
+
+    p.andantetext-regular-black-40px {
         font-size: 19px;
     }
 
@@ -353,6 +377,10 @@ body {
 
     /* Header and homepage*/
 
+    div.andantedisplay-bold-black-48px {
+        font-size: 30px;
+    }
+
     div.andantedisplay-bold-black-40px {
         font-size: 25px;
     }
@@ -361,7 +389,15 @@ body {
         font-size: 25px;
     }
 
+    li.andantedisplay-bold-black-40px {
+        font-size: 25px;
+    }
+
     a.andantetext-regular-black-40px {
+        font-size: 25px;
+    }
+
+    p.andantetext-regular-black-40px {
         font-size: 25px;
     }
 
@@ -451,7 +487,15 @@ body {
         font-size: 30px;
     }
 
+    li.andantedisplay-bold-black-40px {
+        font-size: 30px;
+    }
+
     a.andantetext-regular-black-40px {
+        font-size: 30px;
+    }
+
+    p.andantetext-regular-black-40px {
         font-size: 30px;
     }
 
@@ -595,6 +639,10 @@ body {
 
     /* Header and homepage*/
 
+    div.andantedisplay-bold-black-48px {
+        font-size: 48px;
+    }
+
     div.andantedisplay-bold-black-40px {
         font-size: 40px;
     }
@@ -603,7 +651,15 @@ body {
         font-size: 40px;
     }
 
+    li.andantedisplay-bold-black-40px {
+        font-size: 40px;
+    }
+
     a.andantetext-regular-black-40px {
+        font-size: 40px;
+    }
+    
+    p.andantetext-regular-black-40px {
         font-size: 40px;
     }
 
