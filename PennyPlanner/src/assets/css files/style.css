@@ -136,6 +136,14 @@
     font-style: normal;
 }
 
+.andantedisplay-bold-black-48px {
+    color: var(--black);
+    font-family: var(--font-family-andante-display-bold);
+    font-size: var(--font-size-l);
+    font-weight: 700;
+    font-style: normal;
+}
+
 .andantedisplay-bold-blue-64px {
     color: var(--pennyplanner-blue);
     font-family: var(--font-family-andante-display-bold);
