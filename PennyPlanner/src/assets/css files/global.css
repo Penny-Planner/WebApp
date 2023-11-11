@@ -51,6 +51,10 @@ body {
         font-size: 15px;
     }
 
+    a.andantedisplay-bold-black-40px {
+        font-size: 15px;
+    }
+
     div.andantetext-regular-black-40px {
         font-size: var(--font-size-s);
     }
@@ -125,6 +129,10 @@ body {
         font-size: 15px;
     }
 
+    a.andantetext-regular-black-30px {
+        font-size: 15px;
+    }
+
     div.lower-footer_container {
         height: 20%;
     }
@@ -193,6 +201,10 @@ body {
     /* Header and homepage*/
 
     div.andantedisplay-bold-black-40px {
+        font-size: 19px;
+    }
+
+    a.andantedisplay-bold-black-40px {
         font-size: 19px;
     }
 
@@ -270,6 +282,10 @@ body {
         font-size: 20px;
     }
 
+    a.andantetext-regular-black-30px {
+        font-size: 20px;
+    }
+
     div.lower-footer_container {
         height: 20%;
     }
@@ -338,6 +354,10 @@ body {
     /* Header and homepage*/
 
     div.andantedisplay-bold-black-40px {
+        font-size: 25px;
+    }
+
+    a.andantedisplay-bold-black-40px {
         font-size: 25px;
     }
 
@@ -427,6 +447,10 @@ body {
         font-size: 30px;
     }
 
+    a.andantedisplay-bold-black-40px {
+        font-size: 30px;
+    }
+
     a.andantetext-regular-black-40px {
         font-size: 30px;
     }
@@ -501,6 +525,10 @@ body {
         font-size: 20px;
     }
 
+    a.andantetext-regular-black-30px {
+        font-size: 20px;
+    }
+
     div.lower-footer_container {
         height: 60%;
     }
@@ -571,6 +599,10 @@ body {
         font-size: 40px;
     }
 
+    a.andantedisplay-bold-black-40px {
+        font-size: 40px;
+    }
+
     a.andantetext-regular-black-40px {
         font-size: 40px;
     }
@@ -637,6 +669,10 @@ body {
     }
 
     div.andantetext-regular-black-30px {
+        font-size: 30px;
+    }
+
+    a.andantetext-regular-black-30px {
         font-size: 30px;
     }
 
