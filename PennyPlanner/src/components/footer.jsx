@@ -1,5 +1,5 @@
 import React from "react";
-//import {Link, useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import '../assets/css files/footer.css'
 import PennyPlannerLogo from '../assets/images/PennyPlannerLogo.png'
 import '../assets/css files/global.css'
@@ -23,15 +23,15 @@ export default function Footer() {
                             <div className="footer-col-row_container andantetext-bold-blue-30px">
                                 Help
                             </div>
-                            <div className="footer-col-row_container andantetext-regular-black-30px">
+                            <Link to="/faq" className="footer-col-row_container andantetext-regular-black-30px">
                                 FAQ
-                            </div>
+                            </Link>
                             <div className="footer-col-row_container andantetext-regular-black-30px">
                                 Contact
                             </div>
-                            <div className="footer-col-row_container andantetext-regular-black-30px">
+                            <Link to="/aboutus" className="footer-col-row_container andantetext-regular-black-30px">
                                 About Us
-                            </div>
+                            </Link>
                         </div>
                     </div>
                     <div className="footer-legal_container col-5">
@@ -55,15 +55,15 @@ export default function Footer() {
                             <div className="footer-col-row_container andantetext-bold-blue-30px">
                                 Socials
                             </div>
-                            <div className="footer-col-row_container andantetext-regular-black-30px">
+                            <a href="https://twitter.com/pennyplannereu" target="_blank" className="footer-col-row_container andantetext-regular-black-30px">
                                 Twitter
-                            </div>
+                            </a>
                             <div className="footer-col-row_container andantetext-regular-black-30px">
                                 Instagram
                             </div>
-                            <div className="footer-col-row_container andantetext-regular-black-30px">
-                                Facebook
-                            </div>
+                            <a href="https://www.linkedin.com/in/penny-planner" target="_blank"className="footer-col-row_container andantetext-regular-black-30px">
+                                LinkedIn
+                            </a>
                         </div>
                     </div>
                 </div>
