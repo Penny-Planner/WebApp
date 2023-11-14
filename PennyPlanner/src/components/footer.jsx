@@ -31,9 +31,9 @@ export default function Footer() {
                             <Link to="/faq" className="footer-col-row_container andantetext-regular-black-30px">
                                 FAQ
                             </Link>
-                            <div className="footer-col-row_container andantetext-regular-black-30px">
+                            <Link to="/contact" className="footer-col-row_container andantetext-regular-black-30px">
                                 Contact
-                            </div>
+                            </Link>
                             <Link to="/aboutus" className="footer-col-row_container andantetext-regular-black-30px">
                                 About Us
                             </Link>
