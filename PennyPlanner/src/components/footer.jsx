@@ -4,6 +4,11 @@ import '../assets/css files/footer.css'
 import PennyPlannerLogo from '../assets/images/PennyPlannerLogo.png'
 import '../assets/css files/global.css'
 
+//import PDF files
+import AGB from '../assets/pdf_files/AGBs_eng.pdf'
+import Legal_Notice from '../assets/pdf_files/Legal Notice_eng.pdf'
+import Privacy_Policy from '../assets/pdf_files/Privacy Policy_eng.pdf'
+
 
 export default function Footer() {
     return (
@@ -39,15 +44,15 @@ export default function Footer() {
                             <div className="footer-col-row_container andantetext-bold-blue-30px">
                                 Legal Info
                             </div>
-                            <div className="footer-col-row_container andantetext-regular-black-30px">
+                            <a href={Privacy_Policy} without rel="noreferrer" target="_blank" className="footer-col-row_container andantetext-regular-black-30px">
                                 Privacy Policy
-                            </div>
-                            <div className="footer-col-row_container andantetext-regular-black-30px">
+                            </a>
+                            <a href={AGB} without rel="noreferrer" target="_blank" className="footer-col-row_container andantetext-regular-black-30px">
                                 Terms & Conditions
-                            </div>
-                            <div className="footer-col-row_container andantetext-regular-black-30px">
-                                Cookie Policy
-                            </div>
+                            </a>
+                            <a href={Legal_Notice} without rel="noreferrer" target="_blank" className="footer-col-row_container andantetext-regular-black-30px">
+                                Legal Notice
+                            </a>
                         </div>
                     </div>
                     <div className="footer-socials_container col-4">
