@@ -1,5 +1,5 @@
-echo "Switching to branch deployment"
-git checkout deployment
+echo "Switching to branch deployment2"
+git checkout deployment2
 
 echo "Building app..."
 npm run build
