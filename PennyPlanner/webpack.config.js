@@ -81,7 +81,17 @@ module.exports = {
              },{
                 test: /\.(jpe?g|png|gif|svg)$/i, 
                 use: ['url-loader']
-            }
+            },{
+                test: /\.(jpg|pdf)$/,
+                use: [
+                  {
+                    loader: 'file-loader',
+                    options: {
+                      name: '[name].[ext]'
+                    }
+                  }
+                ]
+              }
         ]
     }
 }
