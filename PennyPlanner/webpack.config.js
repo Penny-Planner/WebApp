@@ -1,4 +1,5 @@
 const path = require("path");
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 /*We are basically telling webpack to take index.js from entry. Then check for all file extensions in resolve. 
 After that apply all the rules in module.rules and produce the output and place it in main.js in the public folder.*/
@@ -13,6 +14,12 @@ module.exports = {
      * the entry point 
      */
     entry: "./index.js",
+    plugins: [
+        new HtmlWebpackPlugin({
+         title: 'Output Management',
+         title: 'Caching',
+        }),
+      ],
     output: {
         /** "path"
          * the folder path of the output file 
@@ -21,7 +28,7 @@ module.exports = {
         /** "filename"
          * the name of the output file 
          */
-        filename: "main.js",
+        filename: "main.[contenthash].js",
         publicPath: '/'
     },
     /** "target"
