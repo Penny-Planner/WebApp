@@ -1,0 +1,22 @@
+.contact_container {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contact-header_container {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-text_container {
+    height: 30vh;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
