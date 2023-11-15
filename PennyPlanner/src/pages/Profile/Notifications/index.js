@@ -1,13 +1,11 @@
 import React from 'react'
-import { Link, useNavigate } from 'react-router-dom'
-import '../../assets/css files/profile.css'
-import Sidebar from '../../components/sidebar'
+import { Link, useNavigate, Outlet } from 'react-router-dom'
+import '../../../assets/css files/profile.css'
+import Sidebar from '../../../components/sidebar'
 
-export default function Profileview() {
+export default function Notifications() {
     return (
-        <div className="fullscreen_profile">
-
-
+        <>
             <div className="content_background">
                 <div className="profile_circle_background">
                 </div>
@@ -29,13 +27,8 @@ export default function Profileview() {
 
                     </div>
                 </div>
-
-
             </div>
             <Sidebar />
-
-
-
-        </div>
+        </>
     )
 }
