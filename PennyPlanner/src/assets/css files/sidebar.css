@@ -1,11 +1,12 @@
 .sidebar_frame {
-    width: 25%;
-    height: 100%;
+    position: fixed;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #ffffff;
-    filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.25))
+    filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.25));
+    padding: 0;
 }
 
 .logo_container {
@@ -37,6 +38,19 @@
     color: white;
 }
 
+.selected-option_container_border {
+    height: 7.8125%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(57, 83, 106, 1);
+    color: white;
+    text-decoration: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
 .option_container {
     height: 7.8125%;
     width: 100%;
@@ -50,4 +64,17 @@
 .option_container:hover {
     background-color: rgba(57, 83, 106, 1);
     color: white;
+}
+
+.selected-option_container {
+    height: 7.8125%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(57, 83, 106, 1);
+    color: white;
+    text-decoration: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
