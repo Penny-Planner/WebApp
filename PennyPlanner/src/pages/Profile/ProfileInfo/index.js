@@ -25,6 +25,13 @@ export default function ProfileInfo() {
                 <div className="lower_content">
                     <div className="content_container">
 
+                        <div className="user-information_column_container">
+
+                        <div className="user-information_row_container">
+                            </div>_container
+
+                        </div>
+
                     </div>
                 </div>
             </div>

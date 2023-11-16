@@ -87,3 +87,16 @@
     background-color: white;
     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25))
 }
+
+.user-information_column_container {
+    width:100%;
+    height:100%;
+
+}
+
+.user-information_row_container {
+    width: 90%;
+    height: 12%;
+    background-color: #39536A;
+
+}
