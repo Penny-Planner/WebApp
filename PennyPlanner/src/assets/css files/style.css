@@ -29,6 +29,7 @@
     --white: rgba(255, 255, 255, 1);
     --black: rgba(0, 0, 0, 1);
     --pennyplanner-blue: rgba(57, 83, 106, 1);
+    --pennyplanner-gray: rgba(217, 217, 217, 1);
 
 
     /* Font size vars */
@@ -71,6 +72,14 @@
 
 .andantetext-regular-black-28px {
     color: var(--black);
+    font-family: var(--font-family-andante-text-regular);
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.andantetext-regular-white-28px {
+    color: var(--white);
     font-family: var(--font-family-andante-text-regular);
     font-size: var(--font-size-sm);
     font-weight: 500;
