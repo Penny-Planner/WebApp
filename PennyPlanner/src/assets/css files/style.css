@@ -161,6 +161,14 @@
     font-style: normal;
 }
 
+.andantedisplay-bold-black-64px {
+    color: var(--black);
+    font-family: var(--font-family-andante-display-bold);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    font-style: normal;
+}
+
 .andantedisplay-bold-black-80px {
     color: var(--black);
     font-family: var(--font-family-andante-display-bold);
