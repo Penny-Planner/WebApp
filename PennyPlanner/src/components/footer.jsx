@@ -63,9 +63,9 @@ export default function Footer() {
                             <a href="https://twitter.com/pennyplannereu" target="_blank" className="footer-col-row_container andantetext-regular-black-30px">
                                 Twitter
                             </a>
-                            <div className="footer-col-row_container andantetext-regular-black-30px">
+                            <a href="https://www.instagram.com/penny_planner.eu/" target="_blank" className="footer-col-row_container andantetext-regular-black-30px">
                                 Instagram
-                            </div>
+                            </a>
                             <a href="https://www.linkedin.com/in/penny-planner" target="_blank"className="footer-col-row_container andantetext-regular-black-30px">
                                 LinkedIn
                             </a>
