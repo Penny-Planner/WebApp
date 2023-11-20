@@ -1,4 +1,3 @@
-
 /* Profile Information */
 .profile_circle_background {
 
@@ -38,7 +37,7 @@
 }
 
 .profile-pic {
-    position:relative;
+    position: relative;
     width: 13.88%;
     background-color: black;
     border-radius: 50%;
@@ -85,8 +84,8 @@
 }
 
 .user-information_column_container {
-    width:100%;
-    height:90%;
+    width: 100%;
+    height: 90%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -123,6 +122,11 @@
     padding-left: 3%;
     justify-content: left;
     align-items: center;
+}
+
+.readonly-input {
+    border: none;
+    outline: none;
 }
 
 .user-buttons_container {
