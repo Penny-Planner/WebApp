@@ -54,33 +54,36 @@ export default function Login() {
         } else {
             setErrorMessage("Loading...")
             console.log({ emailValue }, { passwordValue });
-            // sendDataToAPI(emailValue, passwordValue)
+            sendDataToAPI(emailValue, passwordValue)
         }
     }
 
-    //Send data to API endpoint
+    const sendDataToAPI = async () => {
+        var obj = {
+            username: "hs",
+            email: emailValue,
+            passwd: passwordValue
+        }
 
-    // const sendDataToAPI = async () => {
-    //     var obj = {
-    //         Email: emailValue,
-    //         Password: passwordValue
-    //     }
-    //     const response = await fetch('api link', {
-    //         method: 'POST',
-    //         headers: {
-    //             'Content-Type': 'application/json'
-    //         },
-    //         body: JSON.stringify(obj),
-    //     });
+        const response = await fetch(`http://localhost:8080/user/${obj.username}`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(obj),
+        });
+        if (response.ok) {
+            console.log('Everything working fine!')
+        }
 
-    //     if (response.ok) {
-    //         setErrorMessage('Connection established')
-    //         document.cookie = "token=" + (await response.json()).Response.Token;
-    //         navigate('/home')
-    //     }
-    //     var error = await response.json();
-    //     setErrorMessage(error.Error.Reason);
-    // };
+        // if (response.ok) {
+        //     setErrorMessage('Connection established')
+        //     document.cookie = "token=" + (await response.json()).Response.Token;
+        //     navigate('/home')
+        // }
+        // var error = await response.json();
+        // setErrorMessage(error.Error.Reason);
+    };
 
 
     return (
@@ -100,8 +103,7 @@ export default function Login() {
                 <div className="pw_msg andantetext-regular-black-20px">
                     Forgot your password?
                 </div>
-                <div className="login-button_container">
-                    {/* <input type="button" className="login_button andantetext-bold-white-48px" value="LOGIN" /> */}
+                <div className="login-button_container"> 
                     <LoginButton placeholder="LOGIN" onClick={handleLogin} />
                 </div>
 
